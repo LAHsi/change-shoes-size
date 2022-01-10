@@ -82,7 +82,7 @@ def EUtoTW(x):
 def UStoTW(x):
     return x+18 if x >= 5 and x <= 12 else -1
 def TWtoEU(x):
-    return (4/3)*x-(20/3) if x >= 22 and x <= 30 else -1
+    return (4/3)*x+(20/3) if x >= 22 and x <= 30 else -1
 def TWtoUS(x):
     return x-18 if x >= 22 and x <= 30 else -1
 def TWtoCH(x):
